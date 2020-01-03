@@ -9,7 +9,7 @@ import com.pineapple.system.common.utils.Constant;
 import com.pineapple.common.utils.PageUtils;
 import com.pineapple.system.common.utils.Query;
 import com.pineapple.system.modules.job.dao.ScheduleJobDao;
-import com.pineapple.system.modules.job.entity.ScheduleJobEntity;
+import com.pineapple.system.api.modules.job.entity.ScheduleJobEntity;
 import com.pineapple.system.modules.job.service.ScheduleJobService;
 import com.pineapple.system.modules.job.utils.ScheduleUtils;
 import org.apache.commons.lang.StringUtils;

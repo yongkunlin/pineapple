@@ -4,7 +4,7 @@ package com.pineapple.system.modules.job.utils;
 
 import com.pineapple.common.exception.RRException;
 import com.pineapple.system.common.utils.Constant;
-import com.pineapple.system.modules.job.entity.ScheduleJobEntity;
+import com.pineapple.system.api.modules.job.entity.ScheduleJobEntity;
 import org.quartz.*;
 
 /**

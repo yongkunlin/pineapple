@@ -5,7 +5,7 @@ package com.pineapple.system.modules.sys.redis;
 
 import com.pineapple.system.common.utils.RedisKeys;
 import com.pineapple.common.utils.RedisUtils;
-import com.pineapple.system.modules.sys.entity.SysConfigEntity;
+import com.pineapple.system.api.modules.sys.entity.SysConfigEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

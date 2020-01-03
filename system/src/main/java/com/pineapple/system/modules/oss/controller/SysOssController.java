@@ -14,7 +14,7 @@ import com.pineapple.system.common.validator.group.QcloudGroup;
 import com.pineapple.system.common.validator.group.QiniuGroup;
 import com.pineapple.system.modules.oss.cloud.CloudStorageConfig;
 import com.pineapple.system.modules.oss.cloud.OSSFactory;
-import com.pineapple.system.modules.oss.entity.SysOssEntity;
+import com.pineapple.system.api.modules.oss.entity.SysOssEntity;
 import com.pineapple.system.modules.oss.service.SysOssService;
 import com.pineapple.system.modules.sys.service.SysConfigService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;

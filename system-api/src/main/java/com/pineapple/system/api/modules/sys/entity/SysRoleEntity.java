@@ -1,6 +1,6 @@
 
 
-package com.pineapple.system.modules.sys.entity;
+package com.pineapple.system.api.modules.sys.entity;
 
 
 import com.baomidou.mybatisplus.annotation.TableField;

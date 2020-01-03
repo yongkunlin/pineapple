@@ -4,7 +4,7 @@ package com.pineapple.system.modules.job.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.pineapple.common.utils.PageUtils;
-import com.pineapple.system.modules.job.entity.ScheduleJobEntity;
+import com.pineapple.system.api.modules.job.entity.ScheduleJobEntity;
 
 import java.util.Map;
 

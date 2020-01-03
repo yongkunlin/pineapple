@@ -3,7 +3,7 @@
 package com.pineapple.system.modules.job.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.pineapple.system.modules.job.entity.ScheduleJobEntity;
+import com.pineapple.system.api.modules.job.entity.ScheduleJobEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.Map;

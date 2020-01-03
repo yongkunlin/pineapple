@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.pineapple.common.utils.PageUtils;
 import com.pineapple.system.common.utils.Query;
 import com.pineapple.system.modules.oss.dao.SysOssDao;
-import com.pineapple.system.modules.oss.entity.SysOssEntity;
+import com.pineapple.system.api.modules.oss.entity.SysOssEntity;
 import com.pineapple.system.modules.oss.service.SysOssService;
 import org.springframework.stereotype.Service;
 

@@ -4,7 +4,7 @@ package com.pineapple.system.modules.sys.controller;
 
 import com.pineapple.system.common.utils.Constant;
 import com.pineapple.common.utils.Result;
-import com.pineapple.system.modules.sys.entity.SysDeptEntity;
+import com.pineapple.system.api.modules.sys.entity.SysDeptEntity;
 import com.pineapple.system.modules.sys.service.SysDeptService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;

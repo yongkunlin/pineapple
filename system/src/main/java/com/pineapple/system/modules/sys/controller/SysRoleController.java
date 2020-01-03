@@ -6,7 +6,7 @@ import com.pineapple.system.common.annotation.SysLog;
 import com.pineapple.common.utils.PageUtils;
 import com.pineapple.common.utils.Result;
 import com.pineapple.common.validator.ValidatorUtils;
-import com.pineapple.system.modules.sys.entity.SysRoleEntity;
+import com.pineapple.system.api.modules.sys.entity.SysRoleEntity;
 import com.pineapple.system.modules.sys.service.SysRoleDeptService;
 import com.pineapple.system.modules.sys.service.SysRoleMenuService;
 import com.pineapple.system.modules.sys.service.SysRoleService;

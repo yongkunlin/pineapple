@@ -3,8 +3,8 @@
 package com.pineapple.system.modules.job.utils;
 
 import com.pineapple.common.utils.SpringContextUtils;
-import com.pineapple.system.modules.job.entity.ScheduleJobEntity;
-import com.pineapple.system.modules.job.entity.ScheduleJobLogEntity;
+import com.pineapple.system.api.modules.job.entity.ScheduleJobEntity;
+import com.pineapple.system.api.modules.job.entity.ScheduleJobLogEntity;
 import com.pineapple.system.modules.job.service.ScheduleJobLogService;
 import org.apache.commons.lang.StringUtils;
 import org.quartz.JobExecutionContext;

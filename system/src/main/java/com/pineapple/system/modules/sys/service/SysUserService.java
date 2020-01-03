@@ -4,7 +4,7 @@ package com.pineapple.system.modules.sys.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.pineapple.common.utils.PageUtils;
-import com.pineapple.system.modules.sys.entity.SysUserEntity;
+import com.pineapple.system.api.modules.sys.entity.SysUserEntity;
 
 import java.util.List;
 import java.util.Map;

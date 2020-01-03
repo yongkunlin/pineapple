@@ -4,7 +4,7 @@ package com.pineapple.system.modules.job.controller;
 
 import com.pineapple.common.utils.PageUtils;
 import com.pineapple.common.utils.Result;
-import com.pineapple.system.modules.job.entity.ScheduleJobLogEntity;
+import com.pineapple.system.api.modules.job.entity.ScheduleJobLogEntity;
 import com.pineapple.system.modules.job.service.ScheduleJobLogService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;

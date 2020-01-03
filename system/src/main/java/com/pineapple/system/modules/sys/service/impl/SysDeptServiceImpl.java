@@ -5,7 +5,7 @@ package com.pineapple.system.modules.sys.service.impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.pineapple.system.common.annotation.DataFilter;
 import com.pineapple.system.modules.sys.dao.SysDeptDao;
-import com.pineapple.system.modules.sys.entity.SysDeptEntity;
+import com.pineapple.system.api.modules.sys.entity.SysDeptEntity;
 import com.pineapple.system.modules.sys.service.SysDeptService;
 import org.springframework.stereotype.Service;
 

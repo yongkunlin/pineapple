@@ -4,7 +4,7 @@ package com.pineapple.system.modules.sys.dao;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.pineapple.system.modules.sys.entity.SysConfigEntity;
+import com.pineapple.system.api.modules.sys.entity.SysConfigEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

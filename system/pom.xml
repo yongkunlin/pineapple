@@ -26,6 +26,12 @@
             <artifactId>common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.pineapple</groupId>
+            <artifactId>system-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- 集群环境，需要打开注释 -->
         <!--<dependency>-->
         <!--<groupId>org.springframework.session</groupId>-->
@@ -102,6 +108,10 @@
         <!--            <version>4.0.0</version>-->
         <!--            <scope>test</scope>-->
         <!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

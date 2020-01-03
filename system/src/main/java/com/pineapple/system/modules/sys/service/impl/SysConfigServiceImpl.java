@@ -10,7 +10,7 @@ import com.pineapple.common.exception.RRException;
 import com.pineapple.common.utils.PageUtils;
 import com.pineapple.system.common.utils.Query;
 import com.pineapple.system.modules.sys.dao.SysConfigDao;
-import com.pineapple.system.modules.sys.entity.SysConfigEntity;
+import com.pineapple.system.api.modules.sys.entity.SysConfigEntity;
 import com.pineapple.system.modules.sys.redis.SysConfigRedis;
 import com.pineapple.system.modules.sys.service.SysConfigService;
 import org.apache.commons.lang.StringUtils;

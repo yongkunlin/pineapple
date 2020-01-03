@@ -7,7 +7,7 @@ import com.pineapple.system.common.annotation.SysLog;
 import com.pineapple.common.utils.PageUtils;
 import com.pineapple.common.utils.Result;
 import com.pineapple.common.validator.ValidatorUtils;
-import com.pineapple.system.modules.sys.entity.SysConfigEntity;
+import com.pineapple.system.api.modules.sys.entity.SysConfigEntity;
 import com.pineapple.system.modules.sys.service.SysConfigService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;

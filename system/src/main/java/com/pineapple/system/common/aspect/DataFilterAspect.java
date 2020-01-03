@@ -6,7 +6,7 @@ package com.pineapple.system.common.aspect;
 import com.pineapple.system.common.annotation.DataFilter;
 import com.pineapple.common.exception.RRException;
 import com.pineapple.system.common.utils.Constant;
-import com.pineapple.system.modules.sys.entity.SysUserEntity;
+import com.pineapple.system.api.modules.sys.entity.SysUserEntity;
 import com.pineapple.system.modules.sys.service.SysDeptService;
 import com.pineapple.system.modules.sys.service.SysRoleDeptService;
 import com.pineapple.system.modules.sys.service.SysUserRoleService;

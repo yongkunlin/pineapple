@@ -3,7 +3,7 @@
 package com.pineapple.system.modules.sys.shiro;
 
 import com.pineapple.common.exception.RRException;
-import com.pineapple.system.modules.sys.entity.SysUserEntity;
+import com.pineapple.system.api.modules.sys.entity.SysUserEntity;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.session.Session;

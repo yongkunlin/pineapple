@@ -1,6 +1,6 @@
 
 
-package com.pineapple.system.modules.oss.entity;
+package com.pineapple.system.api.modules.oss.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

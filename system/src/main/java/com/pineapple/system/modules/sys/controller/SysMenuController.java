@@ -6,7 +6,7 @@ import com.pineapple.system.common.annotation.SysLog;
 import com.pineapple.common.exception.RRException;
 import com.pineapple.system.common.utils.Constant;
 import com.pineapple.common.utils.Result;
-import com.pineapple.system.modules.sys.entity.SysMenuEntity;
+import com.pineapple.system.api.modules.sys.entity.SysMenuEntity;
 import com.pineapple.system.modules.sys.service.SysMenuService;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;

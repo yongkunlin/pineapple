@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.pineapple.common.utils.PageUtils;
 import com.pineapple.system.common.utils.Query;
 import com.pineapple.system.modules.job.dao.ScheduleJobLogDao;
-import com.pineapple.system.modules.job.entity.ScheduleJobLogEntity;
+import com.pineapple.system.api.modules.job.entity.ScheduleJobLogEntity;
 import com.pineapple.system.modules.job.service.ScheduleJobLogService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;

@@ -10,7 +10,7 @@ import com.pineapple.common.validator.Assert;
 import com.pineapple.common.validator.ValidatorUtils;
 import com.pineapple.common.validator.group.AddGroup;
 import com.pineapple.common.validator.group.UpdateGroup;
-import com.pineapple.system.modules.sys.entity.SysUserEntity;
+import com.pineapple.system.api.modules.sys.entity.SysUserEntity;
 import com.pineapple.system.modules.sys.service.SysUserRoleService;
 import com.pineapple.system.modules.sys.service.SysUserService;
 import com.pineapple.system.modules.sys.shiro.ShiroUtils;

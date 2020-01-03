@@ -5,7 +5,7 @@ package com.pineapple.system.modules.sys.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.pineapple.system.modules.sys.dao.SysUserRoleDao;
-import com.pineapple.system.modules.sys.entity.SysUserRoleEntity;
+import com.pineapple.system.api.modules.sys.entity.SysUserRoleEntity;
 import com.pineapple.system.modules.sys.service.SysUserRoleService;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@
 
 package com.pineapple.system.modules.sys.controller;
 
-import com.pineapple.system.modules.sys.entity.SysUserEntity;
+import com.pineapple.system.api.modules.sys.entity.SysUserEntity;
 import org.apache.shiro.SecurityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

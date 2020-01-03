@@ -1,41 +1,39 @@
 
 
-package com.pineapple.system.modules.job.entity;
+package com.pineapple.system.api.modules.job.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
-import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.Date;
 
 /**
- * 定时任务
+ * 定时任务日志
  *
  * @author lyk
  */
 @Data
-@TableName("schedule_job")
-public class ScheduleJobEntity implements Serializable {
+@TableName("schedule_job_log")
+public class ScheduleJobLogEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	/**
-	 * 任务调度参数key
+	 * 日志id
 	 */
-    public static final String JOB_PARAM_KEY = "JOB_PARAM_KEY";
+	@TableId
+	private Long logId;
 	
 	/**
 	 * 任务id
 	 */
-	@TableId
 	private Long jobId;
-
+	
 	/**
 	 * spring bean名称
 	 */
-	@NotBlank(message="bean名称不能为空")
 	private String beanName;
 	
 	/**
@@ -44,25 +42,24 @@ public class ScheduleJobEntity implements Serializable {
 	private String params;
 	
 	/**
-	 * cron表达式
-	 */
-	@NotBlank(message="cron表达式不能为空")
-	private String cronExpression;
-
-	/**
-	 * 任务状态
+	 * 任务状态    0：成功    1：失败
 	 */
 	private Integer status;
-
+	
 	/**
-	 * 备注
+	 * 失败信息
 	 */
-	private String remark;
-
+	private String error;
+	
+	/**
+	 * 耗时(单位：毫秒)
+	 */
+	private Integer times;
+	
 	/**
 	 * 创建时间
 	 */
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
 	private Date createTime;
-
+	
 }

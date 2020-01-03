@@ -3,7 +3,7 @@
 package com.pineapple.system.modules.sys.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.pineapple.system.modules.sys.entity.SysUserRoleEntity;
+import com.pineapple.system.api.modules.sys.entity.SysUserRoleEntity;
 
 import java.util.List;
 

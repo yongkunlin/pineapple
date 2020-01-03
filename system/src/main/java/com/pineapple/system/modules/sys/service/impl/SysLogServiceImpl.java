@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.pineapple.common.utils.PageUtils;
 import com.pineapple.system.common.utils.Query;
 import com.pineapple.system.modules.sys.dao.SysLogDao;
-import com.pineapple.system.modules.sys.entity.SysLogEntity;
+import com.pineapple.system.api.modules.sys.entity.SysLogEntity;
 import com.pineapple.system.modules.sys.service.SysLogService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;

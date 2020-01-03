@@ -3,7 +3,7 @@
 package com.pineapple.system.modules.oss.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.pineapple.system.modules.oss.entity.SysOssEntity;
+import com.pineapple.system.api.modules.oss.entity.SysOssEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
